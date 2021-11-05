@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1250px;
+    height: auto;
+    background: #F5F4F4;
+    margin: 0 auto;
+
+}
+/* HEADER */
+.header{
+    width: 100%
+    height: 80px;
+    background: #F5F4F4;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box{
+    margin-top: 20px;
+}
+.header .container .box ul{
+    display: flex;
+    list-style: none;
+}
+.header .container .box ul li{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.header .container .btn {
+    width: 80px;
+    height: 32px;
+    background: #12100C;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+/* CLOSE HEADER */
+
+/* SECTION */
+.section{
+    width: 100%;
+    margin-top: 52px;
+}
+.section .container{
+    display: flex;
+    justify-content: space-around;
+}
+.section .container .box{
+    width: 45%;
+    height: 550px;
+    margin-bottom: 52px;
+}
+.a-text{
+    margin-top: 50px;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 38px;
+    line-height: 88px;
+}
+.spin-text{
+    font-size: 23px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 32px;
+    color: #12100CB2;
+}
+.section .container .box .box-little{
+    display: flex;
+    margin-top: 59px;
+}
+.section .container .box .box-little .btn{
+    width: 160px;
+    height: 46px;
+    border-radius: 16px;
+    background: #FFAE33;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    cursor: pointer;
+    margin-right: 24px;
+
+}
+.section .container .box .box-little .btn:hover{
+    background-color: green;
+    color: white;
+}
+.section .container .box .box-little .btn:active{
+    background-color: yellow;
+    color: blue; 
+
+}
+.open-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #12100CB2;
+}
+.section .icon img{
+    margin: 18px 20px 0 5px;
+}
+
+/* SECTION 2 */
+.section-2 .container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.section-2 .container .project-text{
+    font-size: 54px;
+    font-family: "Roboto", sans-serif;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 64px;
+}
+.section-2 .container .check-text{
+    color: #999795;
+    font-size: 54px;
+    font-family: "Roboto", sans-serif;
+    text-decoration-line: line-through;
+    line-height: 64px;
+}
+.section-2 .container .box{
+    display: flex; 
+    justify-content: space-around;
+}
+.section-2 .container .box .box-1{
+    width: 45%;
+    height: 500px;
+}
+.section-2 .container .box{
+    margin-top: 340px;
+}
+.section-2 .container .box .box-1 .think-text{
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 8px;   
+}
+.we-text{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    line-height: 32px;
+    color: #12100CB2;
+    margin-bottom: 150px;
+}
+.section-2 .container .box-2{
+    display: flex;
+}
+.section-2 .container .box-2 .btn{
+    width: 162px;
+    height: 32px;
+    font-family: "Roboto", sans-serif;
+}
+.section-2 .container .box-2 .n-1{
+    background: #FFAE33;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.section-2 .container .box-2 .n-2{
+    background: #FFB0AE;
+    border-radius: 10px;
+    margin-left: 16px;
+    padding-top: 5px;
+}
+/* SECTION 2  CLOSE*/
+
+/* SECTION 3 */
+.section-3 .container h1{
+    font-size: 54px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 47px;
+}
+.section-3 .container .you-text{
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #12100CB2;
+    text-align: center;
+    /* border: 1px solid ; */
+    width: 70%;
+    margin: 0 auto;
+    line-height: 32px;
+}
+.section-3 .container .box{
+    display: flex;
+    justify-content:center;
+}
+.section-3 .container .box .box-1{
+    width: 207px;
+    height: 47px;
+    background-color: white;
+    margin: 14px;
+}
+.section-3 .container .box .box-2{
+    width: 207px;
+    height: 47px;
+    background-color: white;
+    margin: 14px;
+}
+.section-3 .container .box div{
+    display: flex;
+}
+.section-3 .container .box .box-2 img{
+    padding-top: 5px;
+}
+.section-3 .container .box span{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    margin-left: 5px;
+} 
